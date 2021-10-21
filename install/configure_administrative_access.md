@@ -13,7 +13,7 @@ BMC/controller passwords.
    1. [Configure the Cray Command Line Interface (cray CLI)](#configure_cray_cli)
    1. [Lock Management Nodes](#lock_management_nodes)
    1. [Configure BMC and Controller Parameters with SCSD](#configure_with_scsd)
-   1. [Configure Non-compute Nodes with CFS](#configure-ncns)
+   1. [Apply Configuration to NCNs and Setup Passwordless SSH](#apply_ncn_configuration)
    1. [Upload Olympus BMC Recovery Firmware into TFTP server](#cray_upload_recovery_images)
    1. [Next Topic](#next-topic)
 
@@ -75,8 +75,8 @@ BMC/controller passwords.
       on the BMC for node power down or node power up.
 
       See [Configure BMC and Controller Parameters with SCSD](../operations/system_configuration_service/Configure_BMC_and_Controller_Parameters_with_scsd.md)
-   <a name="configure-ncns"></a>
-   1. Configure Non-compute Nodes with CFS
+   <a name="apply_ncn_configuration"></a>
+   1. Apply Configuration to NCNs and Setup Passwordless SSH
 
       Non-compute Nodes (NCN) need to be configured after booting for administrative access, security, and other
       purposes. The [Configuration Framework Service (CFS)](../operations/configuration_management/Configuration_Management.md)
